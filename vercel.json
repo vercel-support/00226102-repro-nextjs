@@ -1,8 +1,5 @@
 {
   "functions": {
-    "app/api/**/*.ts": {
-      "maxDuration": 120
-    },
     "app/api/chatapps/[chatAppId]/route.ts": {
       "memory": 3009,
       "maxDuration": 20

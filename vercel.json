@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 120
+    },
+    "app/api/chatapps/[chatAppId]/route.ts": {
+      "memory": 256
+    },
+    "app/api/chatapps/[chatAppId]/prompts/route.ts": {
+      "memory": 256
+    },
+    "app/chatapps/[chatAppId]/*.ts": {
+      "memory": 256
+    }
+  }
+}

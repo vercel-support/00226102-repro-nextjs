@@ -1,14 +1,16 @@
 {
   "functions": {
     "app/api/chatapps/[chatAppId]/route.ts": {
-      "memory": 3009,
-      "maxDuration": 20
+      "memory": 256
     },
     "app/api/chatapps/[chatAppId]/prompts/route.ts": {
-      "memory": 3009
+      "memory": 256
     },
     "app/chatapps/[chatAppId]/*.ts": {
-      "memory": 3009
+      "memory": 256
+    },
+    "app/api/**/*.ts": {
+      "maxDuration": 120
     }
   }
 }

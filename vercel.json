@@ -6,7 +6,7 @@
     "app/api/chatapps/[chatAppId]/prompts/route.ts": {
       "memory": 256
     },
-    "app/chatapps/**/*": {
+    "app/chatapps/[chatAppId]/page.tsx": {
       "memory": 256
     },
     "app/api/**/*.ts": {
